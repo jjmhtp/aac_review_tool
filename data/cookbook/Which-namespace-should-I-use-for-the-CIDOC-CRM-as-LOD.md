@@ -4,7 +4,7 @@ category: Triplestores, RDF, and Inferencing
 ---
 ### Problem Statement
 
-Because the CRM is a conceptual reference model, the official definition does not include a mapping to RDF.  Several of these have sprung up, most notably the [Erlagen OWL model](http://erlangen-crm.org) and the official [CIDOC mapping](http://www.cidoc-crm.org/rdfs/cidoc_crm_v6.2.1-draft-b-2015October.rdfs).
+Because the CRM is a conceptual reference model, the official definition does not include a mapping to RDF.  Several of these have sprung up, most notably the [Erlangen OWL model](http://erlangen-crm.org) and the official [CIDOC mapping](http://www.cidoc-crm.org/rdfs/cidoc_crm_v6.2.1-draft-b-2015October.rdfs).
 
 In order to allow our implementations to interoperate, a specific namespace RDF  implementation of the CRM needs to be chosen.
 
@@ -14,7 +14,7 @@ Our recommendation is to use official CIDOC-CRM namespace (<http://www.cidoc-crm
 
 ### Discussion:
 
-We talked about Erlagen OWL vs CIDOC-CRM RDFS.  Rob and David both prefer using the CIDOC namespace and using OWL, with inverse properties.  This means that we either have to convince Erlagen and CIDOC them to finish merging (which they've been talking about for a while) or write our own merge triples.  
+We talked about Erlangen OWL vs CIDOC-CRM RDFS.  Rob and David both prefer using the CIDOC namespace and using OWL, with inverse properties.  This means that we either have to convince Erlangen and CIDOC them to finish merging (which they've been talking about for a while) or write our own merge triples.  
 
 *(From Vladimir)*
 
@@ -31,7 +31,7 @@ Separately, the utility and the precise level of inference should be discussed. 
 
 ### Reference:
 
-* [Erlagen OWL model](http://erlangen-crm.org)
+* [Erlangen OWL model](http://erlangen-crm.org)
 * [Erlangen CRM on Github](https://github.com/erlangen-crm/ecrm)
 * [ecrm-simplify.xq](https://github.com/erlangen-crm/ecrm/blob/master/ecrm-simplify.xq): Vladimir's script
 * [ecrm_current-inverse-transitive.owl](https://github.com/erlangen-crm/ecrm/blob/master/ecrm_current-inverse-transitive.owl): use this version
